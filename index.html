@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Form -->
+      <div class="form-wrapper">
+        <form id="myForm">
+          <div id="form">
+            <div id="heading">
+              <p>Registration Form</p>
+            </div>
+            <div id="form-data">
+              <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name..." required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email..." required />
+              </div>
+              <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password..." required />
+              </div>
+              <div>
+                <label for="dob">DOB</label>
+                <input type="date" id="dob" placeholder="Select your dob..." required />
+              </div>
+              <div>
+                <label for="term">Term Accepted?</label>
+                <input type="checkbox" id="term" />
+              </div>
+              <div>
+                <button type="submit">Submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Right Table -->
+      <div class="form-wrapper blank-form">
+        <div id="form">
+          <div id="heading">
+            <p>Entries</p>
+          </div>
+          <div id="form-data">
+            <table id="data-table">
+              <!-- Table will populate here -->
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
